@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>Quacks - Fortune Teller</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="manifest" href="manifest.json">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1">        
+    </head>
+    <body>
+        <div id="card" style="display: flex;">
+            <p id="text">Draw the first card</p>
+            <button style="display: block;">Draw card</button>
+        </div>
+        <script src="card.js"></script>
+        <script>
+            if (navigator.serviceWorker) {
+                navigator.serviceWorker.register('serviceworker.js').then(function(registration) {}).catch(function(error) {});
+            }
+        </script>
+    </body>
+</html>
