@@ -45,10 +45,10 @@ self.addEventListener('fetch', function(event) {
 
             // Caching is disabled for now 
             // TODO enable caching
-            if (event.request.method === 'GET'){
+            /*if (event.request.method === 'GET'){
               // Clone response and put in cache
               cache.put(event.request, networkResponse.clone());
-            }
+            }*/
             return networkResponse;
           })
           return response || fetchPromise;
