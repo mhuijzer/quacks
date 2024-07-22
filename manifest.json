@@ -1,0 +1,26 @@
+{
+    "short_name": "Quacks",
+    "name": "Quacks - Fortune Teller",
+    "icons": [
+      {
+        "src": "icon-192.png",
+        "type": "image/png",
+        "sizes": "192x192",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "icon-512.png",
+        "type": "image/png",
+        "sizes": "512x512",
+        "purpose": "any maskable"
+      }
+    ],
+    "start_url": "/quacks/",
+    "background_color": "#EAD152",
+    "display": "standalone",
+    "orientation": "portrait",
+    "scope": "/quacks/",
+    "theme_color": "#EAD152",
+    "prefer_related_applications": false
+
+}
